@@ -84,11 +84,8 @@ happiness_chart <-
 ggplotly(happiness_chart, width = 940)
 ```
 
-## Advanced (Optional) 📈
+## Advanced 📈
 
-The following chart demonstrates that it is possible to approximate the functionality of our World in Data grapher for multicountry selection using R, specifically with the `crosstalk` package and a small amount of custom JavaScript. For more information on how to achieve this, see [this Stack Overflow question](https://stackoverflow.com/questions/67058016/how-to-set-default-values-in-filter-select-in-crosstalk-in-r-plotly).
-
-Note that this is not a required task, but rather a showcase of what can be achieved. The code for this will be shared when we provide the solutions for the exercise.
 
 ```{r}
 pacman::p_load(crosstalk) 
